@@ -7,7 +7,7 @@ use GuzzleHttp\Exception\ConnectException;
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $client = new Client([
-    'base_uri' => 'https://dynamicmedia.agency/private/api/',
+    'base_uri' => 'https://dynamicmedia.agency/',
     'headers' => [
         'X-USE-CACHE' => 'no',
         'X-AUTHORIZE-TOKEN' => '__AUTHORIZE__TOKEN__'
